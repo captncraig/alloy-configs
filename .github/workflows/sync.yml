@@ -13,3 +13,4 @@ jobs:
         with:
           host: https://fleet-management-dev-001.grafana-dev.net
           user: 2747
+          token: ${{ secrets.FLEET_TOKEN }}

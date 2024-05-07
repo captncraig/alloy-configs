@@ -1,0 +1,3 @@
+// matchers: os="linux"
+// This config applies to all linux hosts
+// test 123

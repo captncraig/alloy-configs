@@ -9,4 +9,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Sync configs
         id: hello
-        uses: captncraig/fleetcmdr@v4
+        uses: captncraig/fleetcmdr@v5
+        with:
+          host: https://fleet-management-dev-001.grafana-dev.net
+          user: 2747

@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Test 123
     steps:
-      - name: Test Step
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Sync configs
         id: hello
-        uses: captncraig/fleetcmdr@v1
+        uses: captncraig/fleetcmdr@v2
